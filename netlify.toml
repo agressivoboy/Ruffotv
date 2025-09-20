@@ -1,13 +1,6 @@
-# netlify.toml corrigido
 [build]
   command = "npm run build"
   publish = "dist"
 
-[build.environment]
-  NODE_VERSION = "18"
-  CI = "true"
-
 [dev]
-  command = "vite"
-  port = 3000
-  publish = "dist"
+  port = 8888
